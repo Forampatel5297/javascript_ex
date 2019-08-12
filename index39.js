@@ -12,6 +12,8 @@ console.log(`My lastname is ${lastname} and it is ${lastnamecharacter} character
 
 console.log('My first name is longer than my last name:' , longer);
 
+console.log('The character difference between my first name and last name is:', firstname.length - lastname.length);
+
 //console.log(result);
 
 //const charcount = firstname.length;
