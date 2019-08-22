@@ -1,9 +1,18 @@
-const iceCreameFlavours = ['icecreame','strawberry','chocolatechip', 'cookies and creame', 'Grape ice cream', 'French vanilla' ,'Mango ice cream', 'orio', 'vanilla', 'Raspberry Ripple', 'mint chocolate chip'];
-let icecreame = iceCreameFlavours.shift();
+let iceCreamFlavors=[];
 
-let strawberry = iceCreameFlavours.shift();
+iceCreamFlavors.unshift('chocolate');
+iceCreamFlavors.unshift('Vanilla');
+iceCreamFlavors.unshift('strawberry');
+iceCreamFlavors.unshift('mint chocolate chip');
+iceCreamFlavors.unshift('berry');
+iceCreamFlavors.unshift('oreo');
+iceCreamFlavors.unshift( 'Raspberry Ripple');
+iceCreamFlavors.unshift('French vanilla');
+iceCreamFlavors.unshift('umami');
+iceCreamFlavors.push('butter scotch');
+iceCreamFlavors.unshift('cookies and creame');
+iceCreamFlavors.unshift('mint');
 
-let chocolatechip = iceCreameFlavours.shift();
 
-console.log(iceCreameFlavours);
-//console.log(iceCreameFlavoursCount);
+console.log("removed flavor are",iceCreamFlavors.shift(),iceCreamFlavors.shift(),"\nnew array is",iceCreamFlavors);
+
