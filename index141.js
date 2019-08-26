@@ -1,5 +1,3 @@
- 
-
 const tripExpenses = [52, 102, 73.87];
 const calcBudget = (accumulator, currentValue) => accumulator + currentValue;
 const budget  = tripExpenses.reduce( calcBudget );

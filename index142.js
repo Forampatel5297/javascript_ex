@@ -1,6 +1,3 @@
-
-
-
 const firstPerson  = ['foram', 'patel', '415 spring field rd', 23];
 const secondPerson = ['akshay', 'patel', '415 spring field rd', 25];
 const Person = (accumulator, currentValue) => accumulator + currentValue;
